@@ -37,7 +37,8 @@ venv.bak/
 *.env
 
 # Terraform files
-**/.terraform/*
+.terraform/
+**/.terraform/
 *.tfstate
 *.tfstate.*
 .terraform.tfstate.lock.info
